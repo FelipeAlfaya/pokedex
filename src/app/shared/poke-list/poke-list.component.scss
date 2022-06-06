@@ -21,6 +21,14 @@ $padding: rem-calc(20);
       text-decoration: none;
       color: var(--primary-color);
 
+      &:hover {
+        opacity: 0.8;
+        transition: 0.3s;
+      }
+      &:active {
+        opacity: 0.6;
+      }
+
       &__status {
         h2 {
           font-size: rem-calc(22);
@@ -47,10 +55,53 @@ $padding: rem-calc(20);
             width: rem-calc(65);
             height: rem-calc(15);
             margin-bottom: rem-calc(5);
-            color: var(--branco);
+            color: var(--primary);
 
             &.fire {
               background-color: var(--fire);
+            }
+            &.grass {
+              background-color: var(--grass);
+            }
+
+            &.poison {
+              background-color: var(--poison);
+            }
+            &.flying {
+              background-color: var(--flying);
+            }
+            &.water {
+              background-color: var(--water);
+            }
+            &.bug {
+              background-color: var(--bug);
+            }
+            &.eletric {
+              background-color: var(--eletric);
+            }
+            &.ground {
+              background-color: var(--ground);
+            }
+            &.fairy {
+              background-color: var(--fairy);
+            }
+            &.fighting {
+              background-color: var(--fighting);
+            }
+            &.psychic {
+              background-color: var(--psychic);
+            }
+            &.rock {
+              background-color: var(--rock);
+            }
+            &.normal {
+              background-color: var(--normal);
+            }
+            &.steel {
+              background-color: var(--steel);
+            }
+            &.ghost {
+              background-color: var(--ghost);
             }
           }
         }
